@@ -127,6 +127,8 @@ knn_cv.best_params_
 Данная стратегия работает в соответствии с определением кросс-валидации.
 
 Каждой стратегии в scikit-learn ставится в соответствии специальный класс-итератор, который может быть указан в качестве параметра cv функций cross_val_score и cross_validate.
+
+![alt text](https://sun9-24.userapi.com/c854216/v854216011/52bed/5s_3XI0JFU4.jpg)
 """
 
 FOLDS_COUNT = 5
@@ -144,6 +146,8 @@ np.mean(scores)
 Данный метод более ресурсоемкий чем KFold.
 
 Существует эмпирическое правило, что вместо Leave One Out лучше использовать KFold на 5 или 10 фолдов.
+
+![alt text](https://sun9-5.userapi.com/c854216/v854216011/52bf7/AHmT4JiYa9I.jpg)
 """
 
 loo = LeaveOneOut()
